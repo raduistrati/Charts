@@ -15,7 +15,10 @@ let package = Package(
             targets: ["RICharts"]),
     ],
     targets: [
-        .target(name: "RICharts")
+        .target(
+            name: "RICharts",
+            path: "Source/Charts"
+        )
     ],
     swiftLanguageVersions: [.v5]
 )
